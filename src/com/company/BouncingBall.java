@@ -1,4 +1,4 @@
-package bsu.rfe.java.group7.lab6Truhov.A;
+package com.company;
 
 import java.awt.Color;
 import java.awt.Graphics2D;
@@ -7,14 +7,14 @@ public class BouncingBall implements Runnable {
     private static final int MAX_RADIUS = 40;
     private static final int MIN_RADIUS = 3;
     private static final int MAX_SPEED = 15;
-    private Field field;
-    private int radius;
+    public Field field;
+    public int radius;
     private Color color;
-    private double x;
-    private double y;
-    private int speed;
-    private double speedX;
-    private double speedY;
+    public double x;
+    public double y;
+    public int speed;
+    public double speedX;
+    public double speedY;
 
     public BouncingBall(Field field) {
         this.field = field;
